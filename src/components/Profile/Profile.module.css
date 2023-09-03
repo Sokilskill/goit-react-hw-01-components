@@ -1,0 +1,39 @@
+.profile {
+  width: 250px;
+  height: 400px;
+  background-color: rgb(255, 228, 196);
+  border-radius: 8px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+.description {
+  text-align: center;
+}
+
+.avatar {
+}
+.name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgray;
+  padding: 30px;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity {
+  font-weight: 700;
+}

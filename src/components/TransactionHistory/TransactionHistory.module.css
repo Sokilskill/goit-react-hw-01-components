@@ -1,0 +1,30 @@
+.table {
+  border-collapse: collapse;
+  width: 500px;
+}
+
+.thead {
+  background-color: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+
+.th {
+  text-align: center;
+  padding: 8px;
+  border: 3px solid rgb(62, 57, 57);
+}
+
+.td {
+  text-align: center;
+  padding: 8px;
+  border: 2px solid rgb(204, 204, 204);
+}
+
+.row_even {
+  background-color: rgb(255, 255, 255);
+}
+
+.row_odd {
+  background-color: rgb(245, 245, 245);
+}

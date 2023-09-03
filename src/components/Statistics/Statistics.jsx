@@ -6,7 +6,7 @@ function Statistics({ title, stats }) {
   const renderTitle = title ? <h2 className={css.title}>{title}</h2> : null;
 
   return (
-    <section className={css.statistics}>
+    <section className={css.container}>
       {renderTitle}
       <ul className={css.statList}>
         {stats.map((item, index) => (
